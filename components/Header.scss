@@ -1,0 +1,10 @@
+.header {
+  padding-bottom: 0;
+  margin-bottom: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+
+  & > h1 {
+    margin-bottom: 5px;
+  }
+}

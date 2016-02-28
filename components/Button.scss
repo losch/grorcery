@@ -1,0 +1,19 @@
+@import "../common/mixins";
+
+$button-text-color: white;
+$button-text-color-dark: white;
+$button-color: #ef5350;
+$button-color-light: #fc1313;
+$button-height: 36px;
+$button-line-height: 36px;
+
+.button {
+  color: $button-text-color;
+  background-color: $button-color;
+
+  &:hover {
+    color: $button-text-color-dark;
+    background-color: $button-color-light;
+    @include box-shadow(0px, 2px, 5px, rgba(0, 0, 0, 0.15))
+  }
+}

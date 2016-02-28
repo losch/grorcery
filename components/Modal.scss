@@ -1,0 +1,44 @@
+.modal__outer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  background: transparent;
+}
+
+.modal__overlay {
+  display: block;
+  position: fixed;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: black;
+  opacity: 0.3
+}
+
+.modal__contents {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 32px;
+}
+
+.modal__input,
+.modal__button-group {
+  width: 100%;
+}
+
+.modal__button {
+  margin-right: 6px;
+}

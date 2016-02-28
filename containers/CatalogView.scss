@@ -1,0 +1,45 @@
+@import "./variables";
+
+.grocery-catalog-items {
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+.grocery-catalog-item.one-half.column {
+  width: 100%;
+  display: block;
+  margin-left: 0;
+}
+
+@media (#{$bp-larger-than-desktop}) {
+  .grocery-catalog-item.one-half.column {
+    width: 48%;
+  }
+}
+
+.grocery-item-button {
+  display: block;
+  float: left;
+}
+
+.grocery-item-info {
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.grocery-item-link {
+  //font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.grocery-item-subtitle {
+  font-size: 14px;
+  line-height: 14px;
+  color: gray;
+}
